@@ -20,15 +20,9 @@ public class Employee {
 @Id
 @GeneratedValue(strategy = GenerationType.AUTO)
 private Integer employeeId;
-
 private String employeeName;
-
 private String userName;
-
 private String password;
-
-private String employeeMail;
-
 private String employeeContact;
 @Enumerated(EnumType.STRING)
 private UserType userType;
