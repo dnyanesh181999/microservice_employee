@@ -1,5 +1,5 @@
 package com.cjc.loanapplication.enums;
 
 public enum UserType {
-ADMIN,CRM,OE,AH,CM
+ADMIN,CRM,OE,AH,CM,TEL
 }
